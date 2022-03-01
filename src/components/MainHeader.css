@@ -1,0 +1,89 @@
+.main-header-wrapper {
+    padding-top: 23px;
+}
+
+header {
+    width: 1050px;
+    min-height: 30px;
+    display: flex;
+    margin: 0 auto;
+    font-family: Inter;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 45px;
+}
+
+header nav ul li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6C6C6C;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header .create-btn {
+    background-color:#000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    height: 35px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .create-btn:hover {
+    background-color: darkseagreen;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-btn {
+    display: none;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.hero-container {
+    min-height: 416px;
+    padding: 102px 48px 0 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1050px) {
+    header {
+        width: 100%;
+        padding: 0 10px
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .menu-btn {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+    }
+}
