@@ -10,11 +10,61 @@
 
 .top-main-container .top-main {
     display: flex;
+    margin: 0 auto;
+}
+
+.top-main .lf__top-main {
+    color: white;
+    width: 397px;
+    display: flex;
+    align-items: center;
+}
+
+.top-main .lf__top-main h2 {
+    font-family: Rammetto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 109.1%;
+    margin-bottom: 17px;
+}
+
+.top-main .c_top-main,
+.top-main .rg_top-main {
+    width: 276px;
+    min-height: 436px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.top-main .c_top-main h3,
+.top-main .rg_top-main h3 {
+    font-family: Inter;
+    margin-top: 27px; 
+}
+
+.top-main .c_top-main p,
+.top-main .rg_top-main p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 21px 0 41px 0;
+}
+
+.top-main .c_top-main {
+    border: 2px solid white;
+    padding: 47px 25px;
+    color: white;
+}
+
+.top-main .rg_top-main {
+    background-color: white;
+    padding: 47px 25px;
 }
 
 @media only screen and (min-width: 1500px) {
     .top-main-container .top-main {
         width: 1050px;
-        margin: 0 auto;
     }
 }
