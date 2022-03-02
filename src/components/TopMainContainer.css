@@ -1,0 +1,20 @@
+.top-main-container {
+    min-height: 677px;
+    margin-top: -7px;
+    position: relative;
+    z-index: 1;
+    background-color: #6F764D;
+    display: flex;
+    padding: 120px 0;
+}
+
+.top-main-container .top-main {
+    display: flex;
+}
+
+@media only screen and (min-width: 1500px) {
+    .top-main-container .top-main {
+        width: 1050px;
+        margin: 0 auto;
+    }
+}

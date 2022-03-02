@@ -25,7 +25,8 @@ function MainHeader () {
     return (
         <div className='main-header-wrapper'>
             <header>
-                <Link to='/starting'>
+                <div className='header'>
+                <Link to='/starting' className='logo'>
                     <img src={logo} alt='logo' />
                 </Link>
                 <nav className={activeNav ? 'active-nav': 'not-active-nav'}>
@@ -47,8 +48,9 @@ function MainHeader () {
                         <Link to='/' className='create-btn'>Create Account</Link>
                     </ul>
                 </nav>
-                <div className='menu-btn' onClick={activeNavHandler}>
+                <div className={activeNav ? 'active-menu-btn' : 'menu-btn'} onClick={activeNavHandler}>
                     <span></span>
+                </div>
                 </div>
             </header>
             <div className='hero-container'>
