@@ -22,6 +22,11 @@ function MainHeader () {
         document.body.classList.remove('modal-open');
     };
 
+    const closeButtonHandler = () => {
+        setActiveNav(false);
+        document.body.classList.remove('modal-open');
+    };
+
     return (
         <div className='main-header-wrapper'>
             <header>
@@ -32,7 +37,7 @@ function MainHeader () {
                 <nav className={activeNav ? 'active-nav': 'not-active-nav'}>
                     <div onClick={wrapperHandler} className='nav-wrapper'></div>
                     <ul>
-                        <button onClick={() => setActiveNav(false)} className='close-nav-btn'>&times;</button>
+                        <button onClick={closeButtonHandler} className='close-nav-btn'>&times;</button>
                         <li>
                             <NavLink to='/starting'>Home</NavLink>
                         </li>

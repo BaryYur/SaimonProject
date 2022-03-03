@@ -1,0 +1,39 @@
+.middle-main-container {
+    padding: 120px 0;
+}
+
+.middle__top-title-container {
+    width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* main title for many p */
+.main-title {
+    font-family: Rammetto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 109.1%;
+}
+
+.middle__top-title-container p:nth-child(3) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #6C6C6C;
+    margin: 19px 0 84px 0;
+}
+
+.middle__top-title-container .brands-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle__top-title-container .brands-container img {
+    display: block;
+}
