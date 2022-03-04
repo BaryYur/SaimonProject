@@ -27,9 +27,20 @@ function MainHeader () {
         document.body.classList.remove('modal-open');
     };
 
+    // when scrolling down changed header
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").style.boxShadow = "0 0 .5em rgba(0, 0, 0, .5)";
+      } else {
+        document.getElementById("header").style.boxShadow = "none";
+      };
+    };
+
     return (
         <div className='main-header-wrapper'>
-            <header>
+            <header id='header'>
                 <div className='header'>
                 <Link to='/starting' className='logo'>
                     <img src={logo} alt='logo' />
