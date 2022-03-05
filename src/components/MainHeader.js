@@ -45,7 +45,7 @@ function MainHeader () {
                 <Link to='/starting' className='logo'>
                     <img src={logo} alt='logo' />
                 </Link>
-                <nav className={activeNav ? 'active-nav': 'not-active-nav'}>
+                <nav className={activeNav ? 'active-nav' : 'not-active-nav'}>
                     <div onClick={wrapperHandler} className='nav-wrapper'></div>
                     <ul>
                         <button onClick={closeButtonHandler} className='close-nav-btn'>&times;</button>
