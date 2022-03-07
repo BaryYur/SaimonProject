@@ -35,15 +35,16 @@ function MiddleMainConntainer () {
                 </div>
             </div>
             <div className='search-container'>
-                <div className='lf__search-contaienr'>
+                <div className='lf__search-container'>
                     <p>Search for influencer</p>
-                    <p className='main-title'>Search for influencer</p>
+                    <p className='main-title'>More then 6570 influencer waiting for your offer</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor morbi vulputate nec amet purus mauris nibh. Neque, dictum urna</p>
                     <div className='progress-box'>
                         <div></div>
                     </div>
                 </div>
                 <div className='persons-container'>
+                    <div className='gradient-box'></div>
                     <div>
                         <img src={p1} alt='p1' />
                         <img src={p2} alt='p2' />
