@@ -29,7 +29,7 @@ function MainContainer () {
                             <img src={whiteArrow} alt='white-arrow' />
                         </Link>
                     </div>
-                    <div className='rg_top-main' data-aos='flip-up' data-aos-delay='700'>
+                    <div className='rg_top-main' data-aos='flip-up' data-aos-delay='630'>
                         <img src={setting} alt='setting-icon' />
                         <h3>Let us handle it for you</h3>
                         <p>You set the objectives, and we handle your campaigns from A to Z. Let the team of industry experts bring your objectives to life through high-quality campaigns with guaranteed ROI.                         </p>
