@@ -60,6 +60,7 @@
     justify-content: space-between;
     width: 1050px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .lf__search-container {
@@ -130,6 +131,158 @@
     background: linear-gradient(to left, white, rgba(255, 255, 255, 0.699), rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.068));
 }
 
+.start-dealing-container {
+    display: flex;
+    width: 1050px;
+    margin: 0 auto;
+    min-height: 425px;
+    margin-bottom: 80px;
+}
+
+.start-dealing-container .lf__start-deal-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-dealing-container .lf__start-deal-container .lf__start-deal,
+.start-dealing-container .lf__start-deal-container .c__start-deal {
+    width: 253px;
+    padding: 35px 25px;
+}
+
+.start-dealing-container .lf__start-deal-container .lf__start-deal {
+    border: 3px solid #EDEDED;
+    transition: 0.3s ease-in-out;
+    height: 375px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.start-dealing-container .lf__start-deal-container .lf__start-deal:hover {
+    border-color: #6F764D;
+    transition: all 0.3s ease-in-out;
+}
+
+.start-dealing-container .lf__start-deal-container .lf__start-deal h3 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 109.1%;
+    color: #6F764D;
+    margin-bottom: 10px;
+}
+
+.start-dealing-container .lf__start-deal-container .lf__start-deal h3 a {
+    font-size: 18px;
+    line-height: 109.1%;
+    color: #6F764D;
+}
+
+.start-dealing-container .lf__start-deal-container .lf__start-deal p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #6C6C6C;
+    padding-bottom: 20px;
+}
+
+.start-dealing-container .lf__start-deal-container .lf__start-deal p:nth-child(6) {
+    padding-bottom: 0;
+}
+
+.start-dealing-container .lf__start-deal-container .c__start-deal {
+    align-self: flex-end;
+    background-color: #F4F4F4;
+    border: 3px solid #6F764D;
+    min-height: 375px;
+    margin-left: 34px;
+}
+
+.start-dealing-container .lf__start-deal-container .c__start-deal label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+.start-dealing-container .lf__start-deal-container .c__start-deal .select {
+    position: relative;
+    display: flex;
+}
+
+.start-dealing-container .lf__start-deal-container .c__start-deal select {
+    width: 100%;
+    margin: 10px 0 27px 0;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6C6C6C;
+}
+
+.start-dealing-container .lf__start-deal-container .c__start-deal .select:nth-child(2) select {
+    background-color: #6F764D;
+    color: white
+}
+
+.start-dealing-container .lf__start-deal-container .c__start-deal .select img {
+    display: block;
+    position: absolute;
+    right: 6px;
+    top: 17px;
+}
+
+.start-dealing-container .rg__start-deal-container {
+    padding-left: 90px;
+    align-self: center;
+}
+
+.rg__start-deal-container p:first-child {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 109.1%;
+    color: #6C6C6C;
+}
+
+.rg__start-deal-container .main-title {
+    font-size: 30px;
+    margin: 14px 0 21px 0;
+}
+
+.rg__start-deal-container p:nth-child(3) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6C6C6C;
+} 
+
+.rg__start-deal-container .progress-box {
+    width: 180px;
+    height: 5px;
+    margin-top: 40px;
+    background-color: #CDCDCD;
+}
+
+.rg__start-deal-container .progress-box div {
+    width: 120px;
+    background-color: #6F764D;
+    height: 5px;
+}
+
+.second {
+    display: none
+}
+
 @media only screen and (max-width: 1400px) {
     .search-container .persons-container {
         position: absolute;
@@ -177,6 +330,15 @@
     .search-container .persons-container div img:nth-child(3) {
         margin: 0;
     }
+
+    .start-dealing-container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .start-dealing-container .rg__start-deal-container {
+        padding-left: 50px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -205,6 +367,30 @@
     .search-container .persons-container .gradient-box {
         display: none;
     }
+
+    .start-dealing-container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .start-dealing-container .rg__start-deal-container {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .start-dealing-container .lf__start-deal-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .first {
+        display: none;
+    }
+
+    .second {
+        display: block
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -223,14 +409,6 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
-    .middle__top-title-container .brands-container div:last-child {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
-
 @media only screen and (max-width: 622px) {
     .search-container .persons-container div img:nth-child(3) {
         display: none;
@@ -241,6 +419,30 @@
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .lf__start-deal-container {
+        flex-wrap: wrap;
+    }
+
+    .start-dealing-container .lf__start-deal-container .lf__start-deal {
+        width: 70%;
+    }
+
+    .start-dealing-container .lf__start-deal-container .c__start-deal {
+        margin-left: 0;
+        width: 70%;
+        margin-top: 20px; 
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .middle__top-title-container .brands-container div:last-child {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .search-container .persons-container div img {
         width: 160px
@@ -248,6 +450,11 @@
 
     .search-container .persons-container div img:nth-child(2) {
         margin-left: 10px;
+    }
+
+    .start-dealing-container .lf__start-deal-container .lf__start-deal ,
+    .start-dealing-container .lf__start-deal-container .c__start-deal {
+        width: 100%;
     }
 }
 

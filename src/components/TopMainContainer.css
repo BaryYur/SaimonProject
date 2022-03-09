@@ -91,12 +91,16 @@
 
     .right__top-main-container {
         width: 100%;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .top-main .c_top-main ,
     .top-main .rg_top-main {
         margin: 0;
+    }
+
+    .right__top-main-container .c_top-main {
+        margin-right: 20px;
     }
 }
 
@@ -104,6 +108,10 @@
     .right__top-main-container {
         width: 100%;
         flex-wrap: wrap;
+    }
+
+    .right__top-main-container .c_top-main {
+        margin-right: 0;
     }
 
     .top-main .c_top-main ,

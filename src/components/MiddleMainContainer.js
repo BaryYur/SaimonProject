@@ -1,6 +1,8 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { Link } from 'react-router-dom';
+
 import './MiddleMainContainer.css';
 
 import topMainRate from '../images/main-rate-img.png';
@@ -17,6 +19,8 @@ import p5 from '../images/p-5.png';
 import p6 from '../images/p-6.png';
 import p7 from '../images/p-7.png';
 import p8 from '../images/p-8.png';
+import sWhiteArr from '../images/s-white-arrow.png';
+import sGreyArr from '../images/s-grey-arrow.png';
 
 function MiddleMainConntainer () {
     return (
@@ -37,12 +41,13 @@ function MiddleMainConntainer () {
                     </div>
                 </div>
             </div>
+
             <div className='search-container'>
                 <div className='lf__search-container'>
                     <p data-aos='fade-right' data-aos-delay='400'>Search for influencer</p>
-                    <p className='main-title' data-aos='fade-right' data-aos-delay='500'>More then 6570 influencer waiting for your offer</p>
-                    <p data-aos='fade-right' data-aos-delay='600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor morbi vulputate nec amet purus mauris nibh. Neque, dictum urna</p>
-                    <div className='progress-box' data-aos='fade-right' data-aos-delay='700'>
+                    <p className='main-title' data-aos='fade-right' data-aos-delay='400'>More then 6570 influencer waiting for your offer</p>
+                    <p data-aos='fade-right' data-aos-delay='400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor morbi vulputate nec amet purus mauris nibh. Neque, dictum urna</p>
+                    <div className='progress-box' data-aos='fade-right' data-aos-delay='400'>
                         <div></div>
                     </div>
                 </div>
@@ -59,6 +64,51 @@ function MiddleMainConntainer () {
                         <img src={p6} alt='p6' />
                         <img src={p7} alt='p7' />
                         <img src={p8} alt='p8' />
+                    </div>
+                </div>
+            </div>
+
+            <div className='start-dealing-container'>
+                <div className='lf__start-deal-container'>
+                    <div className='lf__start-deal' data-aos='flip-up' data-aos-delay='600' data-aos-offset='50'>
+                        <h3>$49 <Link to='/'>Basic</Link></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <h3>$69 <Link to='/'>Premium</Link></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <h3>$132 <Link to='/'>Business</Link></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                    <div className='c__start-deal' data-aos='flip-up' data-aos-delay='700' data-aos-offset='200'>
+                        <label>Select Category</label>
+                        <div className='select'>
+                            <select>
+                                <option>Shoutput & promotion</option>
+                            </select>
+                            <img className='select-arrow' src={sWhiteArr} alt='white__down__arrow' />
+                        </div>
+                        <label>Quantity</label>
+                        <div className='select'>
+                            <select>
+                                <option>2 Post, 5 Stories</option>
+                            </select>
+                            <img className='select-arrow' src={sGreyArr} alt='grey__down__arrow' />
+                        </div>
+                    </div>
+                </div>
+                <div className='rg__start-deal-container first'>
+                    <p data-aos='fade-left' data-aos-delay='400'>Start Dealing</p>
+                    <p className='main-title' data-aos='fade-left' data-aos-delay='400'>Make a proposal or choose an offer</p>
+                    <p data-aos='fade-left' data-aos-delay='400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor morbi vulputate nec amet purus mauris nibh. Neque, dictum urna</p>
+                    <div className='progress-box' data-aos='fade-left' data-aos-delay='400'>
+                        <div></div>
+                    </div>
+                </div>
+                <div className='rg__start-deal-container second'>
+                    <p data-aos='fade-right' data-aos-delay='400'>Start Dealing</p>
+                    <p className='main-title' data-aos='fade-right' data-aos-delay='400'>Make a proposal or choose an offer</p>
+                    <p data-aos='fade-right' data-aos-delay='400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor morbi vulputate nec amet purus mauris nibh. Neque, dictum urna</p>
+                    <div className='progress-box' data-aos='fade-right' data-aos-delay='400'>
+                        <div></div>
                     </div>
                 </div>
             </div>
@@ -80,7 +130,7 @@ AOS.init({
   throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 100, // offset (in px) from the original trigger point
+  offset: 50, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
   duration: 800, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
