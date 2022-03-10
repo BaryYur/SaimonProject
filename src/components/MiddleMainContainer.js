@@ -131,18 +131,18 @@ function MiddleMainConntainer () {
             </div>
 
             <div className='start-using-container'>
+                <h2 className='main-title'>Start using now</h2>
                 <div className='start-using-content'>
                     <img src={personSlogan} alt='person__slogan' className='person' />
-                    <h2>Start using now</h2>
-                    <div>
+                    <div data-aos="fade-down" data-aos-delay='400'>
                         <img src={grommet} alt='grommet' />
                         <p>Shoutout & Promotion</p>
                     </div>
-                    <div>
+                    <div data-aos="fade-down" data-aos-delay='500'>
                         <img src={baseline} alt='baseline' />
                         <p>Strategy & Research</p>
                     </div>
-                    <div>
+                    <div data-aos="fade-down" data-aos-delay='600'>
                         <img src={handshake} alt='handshake' />
                         <p>Long-Term & Collaboration</p>
                     </div>
