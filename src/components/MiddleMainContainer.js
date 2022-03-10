@@ -21,6 +21,11 @@ import p7 from '../images/p-7.png';
 import p8 from '../images/p-8.png';
 import sWhiteArr from '../images/s-white-arrow.png';
 import sGreyArr from '../images/s-grey-arrow.png';
+import chart from '../images/chart.png';
+import personSlogan from '../images/person-slogan.png';
+import grommet from '../images/grommet-icon.png';
+import baseline from '../images/baseline.png';
+import handshake from '../images/handshake.png';
 
 function MiddleMainConntainer () {
     return (
@@ -109,6 +114,37 @@ function MiddleMainConntainer () {
                     <p data-aos='fade-right' data-aos-delay='400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor morbi vulputate nec amet purus mauris nibh. Neque, dictum urna</p>
                     <div className='progress-box' data-aos='fade-right' data-aos-delay='400'>
                         <div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='result-container'>
+                <div className='lf__result-container'>
+                    <p data-aos='fade-right' data-aos-delay='400'>See the result</p>
+                    <p className='main-title' data-aos='fade-right' data-aos-delay='400'>Enjoy the different!</p>
+                    <p data-aos='fade-right' data-aos-delay='400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor morbi vulputate nec amet purus mauris nibh. Neque, dictum urna</p>
+                    <div className='progress-box' data-aos='fade-right' data-aos-delay='400'></div>
+                </div>
+                <div className='chart-container'>
+                    <img src={chart} alt='chart' />
+                </div>
+            </div>
+
+            <div className='start-using-container'>
+                <div className='start-using-content'>
+                    <img src={personSlogan} alt='person__slogan' className='person' />
+                    <h2>Start using now</h2>
+                    <div>
+                        <img src={grommet} alt='grommet' />
+                        <p>Shoutout & Promotion</p>
+                    </div>
+                    <div>
+                        <img src={baseline} alt='baseline' />
+                        <p>Strategy & Research</p>
+                    </div>
+                    <div>
+                        <img src={handshake} alt='handshake' />
+                        <p>Long-Term & Collaboration</p>
                     </div>
                 </div>
             </div>
