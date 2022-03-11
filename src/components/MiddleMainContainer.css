@@ -596,6 +596,10 @@
     .brands-container img {
         width: 110px;
     }
+
+    .middle-main-container {
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
