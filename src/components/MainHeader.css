@@ -300,7 +300,6 @@ header .create-btn:hover {
         left: 0;
         background-color: #00000060;
         z-index: 2;
-        /* transition: all 0s; */
     }
 
     .active-nav {
@@ -314,7 +313,7 @@ header .create-btn:hover {
 
     .not-active-nav {
         position: absolute;
-        top: -100vh;
+        top: -200vh;
         left: 0;
         height: 700px;
     }

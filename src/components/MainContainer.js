@@ -1,4 +1,5 @@
 import MiddleMainConntainer from './MiddleMainContainer';
+import StartContainer from './StartContainer';
 import StudiesContainer from './StudiesContainer';
 import TopMainContainer from './TopMainContainer';
 
@@ -8,6 +9,7 @@ function MainContainer () {
             <TopMainContainer />
             <MiddleMainConntainer />
             <StudiesContainer />
+            <StartContainer />
         </main>
     );
 };
