@@ -32,3 +32,26 @@
     color: grey;
     transition: all 0.3s ease-in-out;
 }
+
+@media only screen and (max-width: 1100px) {
+    .start-free-container {
+        width: 100%;
+        padding: 70px 10px;
+    }
+
+    .start-free-container {
+        margin-bottom: 3px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .start-free-container {
+        padding: 50px 10px;
+        min-height: auto;
+    }
+
+    .start-free-container a {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+}
