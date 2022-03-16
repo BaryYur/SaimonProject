@@ -10,6 +10,14 @@
 .top-main-container .top-main {
     display: flex;
     margin: 0 auto;
+    height: 449px;
+}
+
+.top-main .c_top-main:hover,
+.top-main .rg_top-main:hover {
+    margin-top: -2px;
+    height: 449px;
+    box-shadow: -1px 2px 12px 0px rgba(0,0,0,0.58);
 }
 
 .top-main .lf__top-main {
@@ -33,6 +41,8 @@
     width: 276px;
     border-radius: 10px;
     margin-left: 50px;
+    margin-top: 0;
+    transition: all 1s ease-in;
 }
 
 .top-main .c_top-main h3,
@@ -117,6 +127,7 @@
 
     .top-main-container .top-main {
         flex-wrap: wrap;
+        height: auto;
     }
 
     .top-main-container .top-main .lf__top-main {
@@ -138,6 +149,14 @@
 
     .right__top-main-container .c_top-main {
         margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .top-main .c_top-main:hover ,
+    .top-main .rg_top-main:hover {
+        height: auto;
+        margin-top: 0;
     }
 }
 
