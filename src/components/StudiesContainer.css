@@ -23,7 +23,7 @@
 
 .header-studies a:hover span:nth-child(2) img {
     margin-left: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 
@@ -45,7 +45,7 @@
 
 .header-studies a span:nth-child(2) img {
     margin-left: -15px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 .data__studies-container {

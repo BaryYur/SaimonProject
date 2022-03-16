@@ -1,5 +1,4 @@
 .top-main-container {
-    min-height: 677px;
     margin-top: -7px;
     position: relative;
     z-index: 1;
@@ -32,7 +31,6 @@
 .top-main .c_top-main,
 .top-main .rg_top-main {
     width: 276px;
-    min-height: 436px;
     border-radius: 10px;
     margin-left: 50px;
 }
@@ -54,6 +52,7 @@
 
 .top-main .c_top-main {
     border: 2px solid white;
+    display: block;
     padding: 47px 25px;
     color: white;
 }
@@ -61,6 +60,44 @@
 .top-main .rg_top-main {
     background-color: white;
     padding: 47px 25px;
+    display: block;
+    color: black;
+}
+
+.top-main .rg_top-main .arrow-box span {
+    background-color: black;
+    border: 1px solid rgb(128, 127, 127);
+    border-right: none;
+}
+
+.top-main .c_top-main .arrow-box span {
+    background-color: white;
+    border: 1px solid rgb(173, 173, 173);
+    border-right: none;
+}
+
+.top-main .rg_top-main .arrow-box span,
+.top-main .c_top-main .arrow-box span {
+    width: 0;
+    transition: 0.2s;
+}
+
+.top-main .rg_top-main:hover .arrow-box span,
+.top-main .c_top-main:hover .arrow-box span {
+    width: 50px;
+    transition: 0.2s;
+}
+
+.top-main .arrow-box {
+    display: flex;
+    align-items: center;
+}
+
+.top-main .arrow-box span {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 3.1px;
 }
 
 .right__top-main-container {
