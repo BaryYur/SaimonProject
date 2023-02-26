@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/saimon/static/css/main.7af5b3a2.css",
+    "main.js": "/saimon/static/js/main.cffcae74.js",
+    "static/media/person-slogan.png": "/saimon/static/media/person-slogan.ac288bb33580d75f4133.png",
+    "static/media/chart.png": "/saimon/static/media/chart.701343723a6bd0e19080.png",
+    "static/media/hero-left-person.png": "/saimon/static/media/hero-left-person.cace3515f6954d94f8a0.png",
+    "static/media/hero-right-person.png": "/saimon/static/media/hero-right-person.3b302521c68a6fba836c.png",
+    "static/media/p-5.png": "/saimon/static/media/p-5.d9fe67a5d53f3e35d43b.png",
+    "static/media/p-6.png": "/saimon/static/media/p-6.bbd502d05a41c5be7870.png",
+    "static/media/p-2.png": "/saimon/static/media/p-2.7cee2a2b41196d3104fe.png",
+    "static/media/p-3.png": "/saimon/static/media/p-3.136b0ae435870868126e.png",
+    "static/media/p-7.png": "/saimon/static/media/p-7.e4da150ea0a5dde87b0a.png",
+    "static/media/p-1.png": "/saimon/static/media/p-1.10412e482b58f18f25b0.png",
+    "index.html": "/saimon/index.html",
+    "main.7af5b3a2.css.map": "/saimon/static/css/main.7af5b3a2.css.map",
+    "main.cffcae74.js.map": "/saimon/static/js/main.cffcae74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7af5b3a2.css",
+    "static/js/main.cffcae74.js"
+  ]
+}
