@@ -1,1 +1,1 @@
-You can open this app: https://saimon-app.herokuapp.com/
+https://baryyur.github.io/SaimonProject/
