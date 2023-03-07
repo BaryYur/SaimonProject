@@ -31,7 +31,6 @@ function MainContainer () {
                         <h3>Simply do it by yourself</h3>
                         <p>With a large database of influencers at your disposal, find those who match your own criteria, set up and manage campaigns and get the results you want for your business, no matter the size.</p>
                         <div className='arrow-box'>
-                            <span></span>
                             <img src={whiteArrow} alt='white-arrow' />
                         </div>
                     </Link>
@@ -45,7 +44,6 @@ function MainContainer () {
                         <h3>Let us handle it for you</h3>
                         <p>You set the objectives, and we handle your campaigns from A to Z. Let the team of industry experts bring your objectives to life through high-quality campaigns with guaranteed ROI.                         </p>
                         <div className='arrow-box'>
-                            <span></span>
                             <img src={blackArrow} alt='black-arrow' />
                         </div>
                     </Link>

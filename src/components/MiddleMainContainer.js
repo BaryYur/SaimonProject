@@ -27,7 +27,7 @@ import grommet from '../images/grommet-icon.png';
 import baseline from '../images/baseline.png';
 import handshake from '../images/handshake.png';
 
-function MiddleMainConntainer () {
+function MiddleMainContainer () {
     return (
         <div className="middle-main-container">
             <div className='middle__top-title-container'>
@@ -152,7 +152,7 @@ function MiddleMainConntainer () {
     );
 };
 
-export default MiddleMainConntainer;
+export default MiddleMainContainer;
 
 AOS.init({
   // Global settings:

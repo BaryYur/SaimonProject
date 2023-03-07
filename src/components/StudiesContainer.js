@@ -54,9 +54,8 @@ function StudiesContainer () {
                 <p className="main-title">Case Studies</p>
                 <Link to="/">
                     <span>{projectsData.map(item => item.completedProjects.toString())}</span> 
-                    Projects Completed 
+                        Projects Completed
                     <span>
-                        <div></div>
                         <img src={greenArr} alt="arrow"/>
                     </span>
                 </Link>
