@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SaimonProject/static/css/main.7af5b3a2.css",
-    "main.js": "/SaimonProject/static/js/main.a0f98f05.js",
+    "main.css": "/SaimonProject/static/css/main.c5e148a3.css",
+    "main.js": "/SaimonProject/static/js/main.49dbf936.js",
     "static/media/person-slogan.png": "/SaimonProject/static/media/person-slogan.ac288bb33580d75f4133.png",
     "static/media/chart.png": "/SaimonProject/static/media/chart.701343723a6bd0e19080.png",
     "static/media/hero-left-person.png": "/SaimonProject/static/media/hero-left-person.cace3515f6954d94f8a0.png",
@@ -13,11 +13,11 @@
     "static/media/p-7.png": "/SaimonProject/static/media/p-7.e4da150ea0a5dde87b0a.png",
     "static/media/p-1.png": "/SaimonProject/static/media/p-1.10412e482b58f18f25b0.png",
     "index.html": "/SaimonProject/index.html",
-    "main.7af5b3a2.css.map": "/SaimonProject/static/css/main.7af5b3a2.css.map",
-    "main.a0f98f05.js.map": "/SaimonProject/static/js/main.a0f98f05.js.map"
+    "main.c5e148a3.css.map": "/SaimonProject/static/css/main.c5e148a3.css.map",
+    "main.49dbf936.js.map": "/SaimonProject/static/js/main.49dbf936.js.map"
   },
   "entrypoints": [
-    "static/css/main.7af5b3a2.css",
-    "static/js/main.a0f98f05.js"
+    "static/css/main.c5e148a3.css",
+    "static/js/main.49dbf936.js"
   ]
 }
